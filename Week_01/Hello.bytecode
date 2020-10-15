@@ -1,0 +1,40 @@
+Compiled from "Hello.java"
+public class Hello {
+  public Hello();
+    Code:
+       0: aload_0
+       1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+       4: return
+    LineNumberTable:
+      line 1: 0
+    LocalVariableTable:
+      Start  Length  Slot  Name   Signature
+          0       5     0  this   LHello;
+
+  public static void main(java.lang.String[]);
+    Code:
+       0: iconst_0
+       1: istore_1
+       2: iconst_2
+       3: istore_2
+       4: iload_1
+       5: iload_2
+       6: iadd
+       7: istore_3
+       8: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+      11: iload_3
+      12: invokevirtual #3                  // Method java/io/PrintStream.println:(I)V
+      15: return
+    LineNumberTable:
+      line 3: 0
+      line 4: 2
+      line 5: 4
+      line 6: 8
+      line 7: 15
+    LocalVariableTable:
+      Start  Length  Slot  Name   Signature
+          0      16     0  args   [Ljava/lang/String;
+          2      14     1 first   I
+          4      12     2 second   I
+          8       8     3 third   I
+}
